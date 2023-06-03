@@ -14,8 +14,8 @@
       "request": "[Dispatch] 客户端 %s 请求：%s %s",
       "keystore": {
         "general_error": "[Dispatch] 加载 keystore 文件时发生错误！",
-        "password_error": "[Dispatch] 加载 keystore 文件失败。正在尝试使用 keystore 默认密码...",
-        "no_keystore_error": "[Dispatch] 未找到 SSL 证书！已回滚到 HTTP 模式",
+        "password_error": "[Dispatch] 加载 keystore 文件失败。keystore 密码错误。正在尝试使用默认密码...",
+        "no_keystore_error": "[Dispatch] 未找到 SSL 证书！使用 HTTP 模式",
         "default_password": "[Dispatch] 成功加载 keystore 默认密码。请考虑将 config.json 中的默认密码设置为 123456"
       },
       "authentication": {
@@ -54,11 +54,11 @@
       "shutdown": "正在关闭...",
       "done": "加载完成！输入 \"help\" 查看命令列表",
       "error": "发生了一个错误",
-      "welcome": "欢迎使用 Grasscutter！",
+      "welcome": "欢迎使用 Grasscutter！ 编译：HELPMEEADICE",
       "run_mode_error": "无效的服务器运行模式：%s",
       "run_mode_help": "服务器运行模式必须为 'HYBRID'(混合)、'DISPATCH_ONLY'(仅 Dispatch) 或 'GAME_ONLY'(仅游戏)。Grasscutter 启动失败...",
       "create_resources": "正在创建 resources 目录...",
-      "resources_error": "请将 BinOutput 和 ExcelBinOutput 复制到 resources 目录",
+      "resources_error": "请将 BinOutput 和 ExcelBinOutput 复制到 resources 目录[大概率为config.json没写好]",
       "version": "Grasscutter 版本：%s-%s",
       "game_version": "游戏版本：%s",
       "resources": {
